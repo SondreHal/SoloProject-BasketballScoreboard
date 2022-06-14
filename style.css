@@ -1,0 +1,92 @@
+@font-face {
+   font-family: Crsd;
+   src: url(Cursed.ttf);
+}
+
+body {
+   margin-inline: 0;
+   margin-block: 2em;
+   text-align: center;
+   background-color: #e47041;
+   color: white;
+   font-family: sans-serif;
+}
+
+h1 {
+   margin: 0;
+   font-weight: bolder;
+   font-size: 48px;
+   color: #161616;
+   margin-bottom: 0.5em;
+}
+
+.count-btn {
+   height: 45px;
+   width: 45px;
+   border-radius: 5px;
+   border: 2px solid #ef7f4d;
+   margin-inline: 5px;
+   background-color: #b54213;
+   color: #161616;
+   font-family: Crsd;
+}
+
+#new-game {
+   color: #161616;
+   background-color: rgb(190, 190, 190);
+   border-radius: 10px;
+   border: 2px solid #9aabd8;
+   background: #4b5971;
+   padding: 1em 2em;
+}
+
+.counters {
+   margin-inline: 1em;
+}
+
+.counter-bg {
+   display: flex;
+   justify-content: center;
+   background-color: black;
+   height: 90px;
+   width: 165px;
+   margin: 0 auto;
+   margin-bottom: 0.2em;
+   padding-top: 10px;
+   color: #f43f5e;
+   font-size: 64px;
+}
+
+#timer {
+   display: flex;
+   justify-content: center;
+   background-color: black;
+   height: 90px;
+   width: 300px;
+   margin: 0 auto;
+   margin-bottom: 0.2em;
+   padding-top: 30px;
+   color: #ec0f34;
+   font-size: 64px;
+   font-family: Crsd;
+   border-radius: 10px;
+   border: 5px solid grey;
+}
+
+#mainbod {
+   display: flex;
+   margin: auto;
+   width: 500px;
+   padding: 3em;
+   justify-content: center;
+}
+
+p {
+   margin: auto;
+   font-family: Crsd;
+}
+
+#leading-team {
+   font-size: 72px;
+   color: #161616;
+}
