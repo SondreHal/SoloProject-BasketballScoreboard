@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Basketball</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <h1 id="leading-team"></h1>
+      <h2 id="timer">
+         <span id="timerM">00</span>
+         :
+         <span id="timerS">00</span>
+      </h2>
+      <div id="mainbod">
+         <div class="counters">
+            <h1>HOME</h1>
+            <div class="counter-bg" id="home-bg"><p id="home">0</p></div>
+            <div>
+               <button class="count-btn" onclick="home1()">+1</button>
+               <button class="count-btn" onclick="home2()">+2</button>
+               <button class="count-btn" onclick="home3()">+3</button>
+            </div>
+         </div>
+         <div class="counters">
+            <h1>GUEST</h1>
+            <div class="counter-bg" id="guest-bg"><p id="guest">0</p></div>
+            <div>
+               <button class="count-btn" onclick="guests1()">+1</button>
+               <button class="count-btn" onclick="guests2()">+2</button>
+               <button class="count-btn" onclick="guests3()">+3</button>
+            </div>
+         </div>
+      </div>
+      <button onclick="newGame()" id="new-game">New Game</button>
+      <script src="index.js"></script>
+   </body>
+</html>
