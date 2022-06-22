@@ -1,92 +1,114 @@
 @font-face {
-   font-family: Crsd;
-   src: url(Cursed.ttf);
+	font-family: Crsd;
+	src: url(Cursed.ttf);
 }
 
 body {
-   margin-inline: 0;
-   margin-block: 2em;
-   text-align: center;
-   background-color: #e47041;
-   color: white;
-   font-family: sans-serif;
+	/*Box model stuff*/
+	background-color: #e47041;
+	/*Typography stuff*/
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	/*Miscellaneous*/
+	margin-inline: 0;
+	margin-block: 2em;
 }
 
 h1 {
-   margin: 0;
-   font-weight: bolder;
-   font-size: 48px;
-   color: #161616;
-   margin-bottom: 0.5em;
+	/*Box model stuff*/
+	margin: 0;
+	margin-bottom: 0.5em;
+	/*Typography stuff*/
+	font-size: 48px;
+	font-weight: bolder;
+	color: #161616;
 }
 
 .count-btn {
-   height: 45px;
-   width: 45px;
-   border-radius: 5px;
-   border: 2px solid #ef7f4d;
-   margin-inline: 5px;
-   background-color: #b54213;
-   color: #161616;
-   font-family: Crsd;
+	/*Box model stuff*/
+	width: 45px;
+	height: 45px;
+	border: 2px solid #ef7f4d;
+	border-radius: 5px;
+	background-color: #b54213;
+	/*Typography stuff*/
+	font-family: Crsd;
+	color: #161616;
+	/*Miscellaneous*/
+	margin-inline: 5px;
 }
 
 #new-game {
-   color: #161616;
-   background-color: rgb(190, 190, 190);
-   border-radius: 10px;
-   border: 2px solid #9aabd8;
-   background: #4b5971;
-   padding: 1em 2em;
+	/*Box model stuff*/
+	padding: 1em 2em;
+	border: 2px solid #9aabd8;
+	border-radius: 10px;
+	background-color: rgb(190, 190, 190);
+	background: #4b5971;
+	/*Typography stuff*/
+	color: #161616;
 }
 
 .counters {
-   margin-inline: 1em;
+	/*Miscellaneous*/
+	margin-inline: 1em;
 }
 
 .counter-bg {
-   display: flex;
-   justify-content: center;
-   background-color: black;
-   height: 90px;
-   width: 165px;
-   margin: 0 auto;
-   margin-bottom: 0.2em;
-   padding-top: 10px;
-   color: #f43f5e;
-   font-size: 64px;
+	/*Display stuff*/
+	display: flex;
+	justify-content: center;
+	/*Box model stuff*/
+	width: 165px;
+	height: 90px;
+	margin: 0 auto;
+	margin-bottom: 0.2em;
+	padding-top: 10px;
+	background-color: black;
+	/*Typography stuff*/
+	font-size: 64px;
+	color: #f43f5e;
 }
 
 #timer {
-   display: flex;
-   justify-content: center;
-   background-color: black;
-   height: 90px;
-   width: 300px;
-   margin: 0 auto;
-   margin-bottom: 0.2em;
-   padding-top: 30px;
-   color: #ec0f34;
-   font-size: 64px;
-   font-family: Crsd;
-   border-radius: 10px;
-   border: 5px solid grey;
+	/*Display stuff*/
+	display: flex;
+	justify-content: center;
+	/*Box model stuff*/
+	width: 300px;
+	height: 90px;
+	margin: 0 auto;
+	margin-bottom: 0.2em;
+	padding-top: 30px;
+	border: 5px solid grey;
+	border-radius: 10px;
+	background-color: black;
+	/*Typography stuff*/
+	font-family: Crsd;
+	font-size: 64px;
+	color: #ec0f34;
 }
 
 #mainbod {
-   display: flex;
-   margin: auto;
-   width: 500px;
-   padding: 3em;
-   justify-content: center;
+	/*Display stuff*/
+	display: flex;
+	justify-content: center;
+	/*Box model stuff*/
+	width: 500px;
+	margin: auto;
+	padding: 3em;
 }
 
 p {
-   margin: auto;
-   font-family: Crsd;
+	/*Box model stuff*/
+	margin: auto;
+	/*Typography stuff*/
+	font-family: Crsd;
 }
 
 #leading-team {
-   font-size: 72px;
-   color: #161616;
+	/*Typography stuff*/
+	font-size: 72px;
+	color: #161616;
 }
