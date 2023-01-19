@@ -21,11 +21,14 @@
 		<h1 id="leading-team-text"></h1>
 
 		<!-- TIMER -->
-		<p class="timer">
-			<span id="timerMinutes">00</span>
-			:
-			<span id="timerSeconds">00</span>
-		</p>
+		<div class="timer-container">
+			<p class="timer">
+				<span id="timerMinutes">00</span>
+				:
+				<span id="timerSeconds">00</span>
+			</p>
+			<p class="num-behind">00:00</p>
+		</div>
 
 		<!-- SCORE -->
 		<div class="score-container">
@@ -33,12 +36,23 @@
 			<div>
 				<h2>HOME</h2>
 
-				<p
-					class="score"
-					id="home-score"
+				<div
+					class="score-num-container"
+					id="home-score-container"
 				>
-					0
-				</p>
+					<p
+						class="score"
+						id="home-score"
+					>
+						00
+					</p>
+					<p
+						class="num-behind"
+						id="home-num-behind"
+					>
+						00
+					</p>
+				</div>
 
 				<div>
 					<button
@@ -68,12 +82,23 @@
 			<div>
 				<h2>GUEST</h2>
 
-				<p
-					class="score"
-					id="guest-score"
+				<div
+					class="score-num-container"
+					id="guest-score-container"
 				>
-					0
-				</p>
+					<p
+						class="score"
+						id="guest-score"
+					>
+						00
+					</p>
+					<p
+						class="num-behind"
+						id="guest-num-behind"
+					>
+						00
+					</p>
+				</div>
 
 				<div>
 					<button

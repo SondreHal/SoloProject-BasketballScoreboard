@@ -32,16 +32,30 @@ button:hover {
 	cursor: pointer;
 }
 
-.timer {
+.timer-container {
 	background-color: black;
 	border-radius: 10px;
 	border: 5px solid grey;
+	margin: 0 auto 2rem;
+	padding: 1rem 2rem 0.4rem;
+	position: relative;
+	width: fit-content;
+	z-index: -2;
+}
+.timer {
 	color: #ec0f34;
 	display: flex;
 	font-size: 64px;
-	margin: 0 auto 2rem;
-	padding: 1rem 2rem 0.4rem;
-	width: fit-content;
+}
+.num-behind {
+	color: #7d0b1e;
+	display: flex;
+	font-size: 64px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, calc(-50% + 5px));
+	z-index: -1;
 }
 
 .score-container {
@@ -52,14 +66,18 @@ button:hover {
 	margin: 0 auto 2rem;
 	width: fit-content;
 }
-.score {
+.score-num-container {
 	background-color: black;
 	border-radius: 5px;
 	border: 3px solid grey;
+	margin-bottom: 0.8rem;
+	padding: 0.7rem 0 0.3rem;
+	position: relative;
+	z-index: -2;
+}
+.score {
 	color: #ec0f34;
 	font-size: 64px;
-	margin-bottom: 0.8rem;
-	padding: 0.7rem 2rem 0.3rem;
 }
 .score-btn {
 	font-family: Crsd;
