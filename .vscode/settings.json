@@ -1,3 +1,4 @@
 {
-   "cSpell.words": ["guestcount", "pointcount"]
+	"cSpell.words": ["guestcount", "pointcount"],
+	"liveServer.settings.port": 5501
 }
