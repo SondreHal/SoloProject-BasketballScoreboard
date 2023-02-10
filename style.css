@@ -109,6 +109,9 @@ button:hover {
 }
 
 @media screen and (max-width: 360px) {
+	body {
+		padding-top: 1.5rem;
+	}
 	h1 {
 		font-size: 40px;
 	}
