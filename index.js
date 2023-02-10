@@ -82,13 +82,13 @@ function newGame() {
 function checkLead() {
 	if (homeCount > guestCount) {
 		// HOME LEADS
-		homeScoreContainer.style.boxShadow = '0px 0px 10px 5px #ff1500';
+		homeScoreContainer.style.boxShadow = '0px 0px 15px 1px hsla(341, 100%, 50%, 1)';
 		guestScoreContainer.style.boxShadow = '';
 		leadingTeamText.textContent = 'HOME TEAM IS IN THE LEAD!';
 	} else if (homeCount < guestCount) {
 		// GUEST LEADS
 		homeScoreContainer.style.boxShadow = '';
-		guestScoreContainer.style.boxShadow = '0px 0px 10px 5px #ff1500';
+		guestScoreContainer.style.boxShadow = '0px 0px 15px 1px hsla(341, 100%, 50%, 1)';
 		leadingTeamText.textContent = 'GUEST TEAM IS IN THE LEAD!';
 	} else if (homeCount === 0 && guestCount === 0) {
 		// NO SCORE
