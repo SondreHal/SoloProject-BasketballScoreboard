@@ -2,22 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta
-			http-equiv="X-UA-Compatible"
-			content="IE=edge"
-		/>
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<link
-			rel="stylesheet"
-			href="style.css"
-		/>
-		<script
-			src="index.js"
-			defer
-		></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" href="images/Basketball Emoji.png" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="index.js" defer></script>
 		<title>Basketball Scoreboard</title>
 	</head>
 	<body>
@@ -40,45 +29,17 @@
 			<div>
 				<h2>HOME</h2>
 
-				<div
-					class="score-num-container"
-					id="home-score-container"
-				>
-					<p
-						class="score"
-						id="home-score"
-					>
-						00
-					</p>
-					<p
-						class="num-behind"
-						id="home-num-behind"
-					>
-						00
-					</p>
+				<div class="score-num-container" id="home-score-container">
+					<p class="score" id="home-score">00</p>
+					<p class="num-behind" id="home-num-behind">00</p>
 				</div>
 
 				<div class="btn_score_container">
-					<button
-						class="btn_score"
-						onclick="home(1)"
-					>
-						+1
-					</button>
+					<button class="btn_score" onclick="home(1)">+1</button>
 
-					<button
-						class="btn_score"
-						onclick="home(2)"
-					>
-						+2
-					</button>
+					<button class="btn_score" onclick="home(2)">+2</button>
 
-					<button
-						class="btn_score"
-						onclick="home(3)"
-					>
-						+3
-					</button>
+					<button class="btn_score" onclick="home(3)">+3</button>
 				</div>
 			</div>
 
@@ -86,55 +47,22 @@
 			<div>
 				<h2>GUEST</h2>
 
-				<div
-					class="score-num-container"
-					id="guest-score-container"
-				>
-					<p
-						class="score"
-						id="guest-score"
-					>
-						00
-					</p>
-					<p
-						class="num-behind"
-						id="guest-num-behind"
-					>
-						00
-					</p>
+				<div class="score-num-container" id="guest-score-container">
+					<p class="score" id="guest-score">00</p>
+					<p class="num-behind" id="guest-num-behind">00</p>
 				</div>
 
 				<div class="btn_score_container">
-					<button
-						class="btn_score"
-						onclick="guests(1)"
-					>
-						+1
-					</button>
+					<button class="btn_score" onclick="guests(1)">+1</button>
 
-					<button
-						class="btn_score"
-						onclick="guests(2)"
-					>
-						+2
-					</button>
+					<button class="btn_score" onclick="guests(2)">+2</button>
 
-					<button
-						class="btn_score"
-						onclick="guests(3)"
-					>
-						+3
-					</button>
+					<button class="btn_score" onclick="guests(3)">+3</button>
 				</div>
 			</div>
 		</div>
 
 		<!-- RESET BUTTON -->
-		<button
-			onclick="newGame()"
-			class="reset-btn"
-		>
-			NEW GAME
-		</button>
+		<button onclick="newGame()" class="reset-btn">NEW GAME</button>
 	</body>
 </html>
